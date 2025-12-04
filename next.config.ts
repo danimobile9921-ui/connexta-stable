@@ -1,7 +1,5 @@
-import type { NextConfig } from "next";
+import { defineNextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+export default defineNextConfig({
+  output: "export", // omogućava statički export za Firebase Hosting
+});
