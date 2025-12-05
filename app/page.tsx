@@ -1,4 +1,6 @@
-import Slider from "../components/Slider";
+"use client";
+
+import Slider from "./components/Slider";
 
 export default function Home() {
   return (
