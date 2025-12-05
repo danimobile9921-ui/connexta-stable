@@ -1,5 +1,6 @@
-import { defineNextConfig } from "next";
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export" // statički export
+};
 
-export default defineNextConfig({
-  output: "export", // omogućava statički export za Firebase Hosting
-});
+module.exports = nextConfig;
