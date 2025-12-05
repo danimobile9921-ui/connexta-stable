@@ -4,7 +4,16 @@
 
 /* Dodaj svoje globalne stilove ispod */
 body {
-  @apply bg-gray-50 text-gray-900 antialiased;
+  @apply bg-gray-50 text-gray-900;
   margin: 0;
   font-family: system-ui, sans-serif;
+}
+
+/* Stil za slider tekst */
+.slider-text {
+  @apply absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-40 text-white text-center p-4;
+}
+
+.slider-text h1 {
+  @apply text-4xl md:text-6xl font-bold;
 }

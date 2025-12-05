@@ -9,26 +9,11 @@ interface Slide {
 }
 
 const slides: Slide[] = [
-  {
-    src: "/images/sliderlove.jpg",
-    text: "Chat and meet your dream partner."
-  },
-  {
-    src: "/images/sliderfriends.jpg",
-    text: "Discover and make new friends around the world."
-  },
-  {
-    src: "/images/sliderads.jpg",
-    text: "Check out ads, sales, and marketing opportunities."
-  },
-  {
-    src: "/images/slidergames.jpg",
-    text: "Play exciting games with friends."
-  },
-  {
-    src: "/images/slidertravel.jpg",
-    text: "Find your perfect travel destination."
-  }
+  { src: "/images/sliderlove.jpg", text: "Chat and meet your dream partner." },
+  { src: "/images/sliderfriends.jpg", text: "Discover and make new friends around the world." },
+  { src: "/images/sliderads.jpg", text: "Check out ads, sales, and marketing opportunities." },
+  { src: "/images/slidergames.jpg", text: "Play exciting games with friends." },
+  { src: "/images/slidertravel.jpg", text: "Find your perfect travel destination." },
 ];
 
 export default function Slider() {
